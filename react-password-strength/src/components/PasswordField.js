@@ -1,3 +1,4 @@
+    
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import zxcvbn from 'zxcvbn';
@@ -95,5 +96,6 @@ PasswordField.propTypes = {
   minStrength: PropTypes.number,
   thresholdLength: PropTypes.number
 };
+
 
 export default PasswordField;
